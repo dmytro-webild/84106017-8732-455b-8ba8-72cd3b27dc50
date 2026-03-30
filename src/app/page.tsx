@@ -59,23 +59,23 @@ export default function LandingPage() {
       tag="Maarifləndirmə Portalı"
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png?_wi=1",
           imageAlt: "Bitcoin logo tech concept",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png?_wi=2",
           imageAlt: "Bitcoin visual",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png?_wi=3",
           imageAlt: "Digital circuits",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png?_wi=4",
           imageAlt: "Glowing nodes",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png?_wi=5",
           imageAlt: "Blockchain structure",
         },
       ]}
