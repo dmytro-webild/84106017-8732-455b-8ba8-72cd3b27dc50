@@ -28,22 +28,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleApple
       navItems={[
-        {
-          name: "Əsas",
-          id: "hero",
-        },
-        {
-          name: "Haqqında",
-          id: "about",
-        },
-        {
-          name: "Texnologiya",
-          id: "features",
-        },
-        {
-          name: "Suallar",
-          id: "faq",
-        },
+        { name: "Əsas", id: "hero" },
+        { name: "Haqqında", id: "about" },
+        { name: "Texnologiya", id: "features" },
+        { name: "Suallar", id: "faq" },
       ]}
       brandName="Bitcoin Portal"
     />
@@ -51,33 +39,17 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       title="Bitcoin: Rəqəmsal İnqilab"
       description="Bitcoin, dünyada mərkəzi orqanı olmayan ilk rəqəmsal valyutadır. Onun necə işlədiyini və niyə vacib olduğunu kəşf edin."
       tag="Maarifləndirmə Portalı"
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png?_wi=1",
-          imageAlt: "Bitcoin logo tech concept",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png",          imageAlt: "Bitcoin logo tech concept"
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png?_wi=2",
-          imageAlt: "Bitcoin visual",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png?_wi=3",
-          imageAlt: "Digital circuits",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png?_wi=4",
-          imageAlt: "Glowing nodes",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png?_wi=5",
-          imageAlt: "Blockchain structure",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/a-futuristic-and-high-tech-digital-repre-1774898192040-2fcbb7bd.png",          imageAlt: "Bitcoin visual"
+        }
       ]}
       mediaAnimation="blur-reveal"
       rating={5}
@@ -90,10 +62,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Bitcoin nədir?"
       description={[
-        "Bitcoin 2009-cu ildə Satoshi Nakamoto adlı şəxs və ya qrup tərəfindən yaradılmışdır.",
-        "O, ənənəvi bank sistemindən asılı olmayan bir ödəniş sistemidir.",
-        "Bitcoin 'blockchain' texnologiyası üzərində qurulub ki, bu da bütün əməliyyatların şəffaf və dəyişdirilməz olmasını təmin edir.",
-      ]}
+        "Bitcoin 2009-cu ildə Satoshi Nakamoto adlı şəxs və ya qrup tərəfindən yaradılmışdır.",        "O, ənənəvi bank sistemindən asılı olmayan bir ödəniş sistemidir.",        "Bitcoin 'blockchain' texnologiyası üzərində qurulub ki, bu da bütün əməliyyatların şəffaf və dəyişdirilməz olmasını təmin edir."]}
     />
   </div>
 
@@ -104,25 +73,13 @@ export default function LandingPage() {
       features={[
         {
           id: 1,
-          title: "Kriptoqrafik Təhlükəsizlik",
-          description: "Bitcoin əməliyyatları qabaqcıl kriptoqrafiya üsulları ilə qorunur.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/high-tech-secure-shield-icon-floating-in-1774898192458-ab997ff7.png",
-          imageAlt: "Təhlükəsizlik",
-        },
+          title: "Kriptoqrafik Təhlükəsizlik",          description: "Bitcoin əməliyyatları qabaqcıl kriptoqrafiya üsulları ilə qorunur.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/high-tech-secure-shield-icon-floating-in-1774898192458-ab997ff7.png",          imageAlt: "Təhlükəsizlik"},
         {
           id: 2,
-          title: "Mərkəzləşdirilməmiş Şəbəkə",
-          description: "Şəbəkə heç bir dövlət və ya qurum tərəfindən idarə olunmur.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/decentralized-digital-network-map-showin-1774898192279-6fdbc910.png",
-          imageAlt: "Şəbəkə",
-        },
+          title: "Mərkəzləşdirilməmiş Şəbəkə",          description: "Şəbəkə heç bir dövlət və ya qurum tərəfindən idarə olunmur.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/decentralized-digital-network-map-showin-1774898192279-6fdbc910.png",          imageAlt: "Şəbəkə"},
         {
           id: 3,
-          title: "Bloklar Zənciri",
-          description: "Hər bir əməliyyat bloklara yazılır və daimi olaraq saxlanılır.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/abstract-representation-of-a-digital-led-1774898192103-22e72d83.png",
-          imageAlt: "Blockchain",
-        },
+          title: "Bloklar Zənciri",          description: "Hər bir əməliyyat bloklara yazılır və daimi olaraq saxlanılır.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/abstract-representation-of-a-digital-led-1774898192103-22e72d83.png",          imageAlt: "Blockchain"},
       ]}
       title="Bitcoin Texnologiyasının Əsasları"
       description="Bitcoin-in əsasını təşkil edən mürəkkəb texnologiyaları sadə dildə izah edirik."
@@ -135,20 +92,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "Bitcoin virtual valyutadır?",
-          content: "Bəli, o, fiziki forması olmayan tam rəqəmsal bir valyutadır.",
-        },
+          id: "q1",          title: "Bitcoin virtual valyutadır?",          content: "Bəli, o, fiziki forması olmayan tam rəqəmsal bir valyutadır."},
         {
-          id: "q2",
-          title: "Bitcoin qanunidir?",
-          content: "Dünyanın əksər ölkələrində qanunidir, lakin hər ölkənin fərqli tənzimləmələri var.",
-        },
+          id: "q2",          title: "Bitcoin qanunidir?",          content: "Dünyanın əksər ölkələrində qanunidir, lakin hər ölkənin fərqli tənzimləmələri var."},
         {
-          id: "q3",
-          title: "Bitcoin investisiya deyil?",
-          content: "Bizim platformamız yalnız maarifləndirmə məqsədi daşıyır, investisiya məsləhətləri vermirik.",
-        },
+          id: "q3",          title: "Bitcoin investisiya deyil?",          content: "Bizim platformamız yalnız maarifləndirmə məqsədi daşıyır, investisiya məsləhətləri vermirik."},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bg5zlud6S1jzVdOppJhAQg6rzd/minimalist-representation-of-help-desk-s-1774898192486-29cd1e65.png"
       imageAlt="FAQ Support"
@@ -168,25 +116,13 @@ export default function LandingPage() {
       description="Dünyanın ən məşhur rəqəmsal aktivinin miqyası haqqında bəzi məlumatlar."
       metrics={[
         {
-          id: "m1",
-          value: "2009",
-          description: "Yaradılma ili",
-        },
+          id: "m1",          value: "2009",          description: "Yaradılma ili"},
         {
-          id: "m2",
-          value: "21 Milyon",
-          description: "Maksimum təchizat",
-        },
+          id: "m2",          value: "21 Milyon",          description: "Maksimum təchizat"},
         {
-          id: "m3",
-          value: "Qlobal",
-          description: "Şəbəkə əhatəsi",
-        },
+          id: "m3",          value: "Qlobal",          description: "Şəbəkə əhatəsi"},
         {
-          id: "m4",
-          value: "Sərt",
-          description: "Kriptoqrafik təhlükəsizlik",
-        },
+          id: "m4",          value: "Sərt",          description: "Kriptoqrafik təhlükəsizlik"},
       ]}
     />
   </div>
@@ -197,33 +133,21 @@ export default function LandingPage() {
       imageAlt="Bitcoin Footer Logo"
       columns={[
         {
-          title: "Naviqasiya",
-          items: [
+          title: "Naviqasiya",          items: [
             {
-              label: "Əsas Səhifə",
-              href: "#hero",
-            },
+              label: "Əsas Səhifə",              href: "#hero"},
             {
-              label: "Haqqımızda",
-              href: "#about",
-            },
+              label: "Haqqımızda",              href: "#about"},
             {
-              label: "Texnologiya",
-              href: "#features",
-            },
+              label: "Texnologiya",              href: "#features"},
           ],
         },
         {
-          title: "Hüquqi",
-          items: [
+          title: "Hüquqi",          items: [
             {
-              label: "İstifadə qaydaları",
-              href: "#",
-            },
+              label: "İstifadə qaydaları",              href: "#"},
             {
-              label: "Məxfilik Siyasəti",
-              href: "#",
-            },
+              label: "Məxfilik Siyasəti",              href: "#"},
           ],
         },
       ]}
